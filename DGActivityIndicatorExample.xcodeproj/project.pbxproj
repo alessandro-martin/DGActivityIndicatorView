@@ -223,17 +223,6 @@
 		053EEDD51B1A4A640042C92B /* DGActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				053EEDD61B1A4A640042C92B /* Animations */,
-				053EEDE31B1A4A640042C92B /* DGActivityIndicatorAnimationProtocol.h */,
-				053EEDE41B1A4A640042C92B /* DGActivityIndicatorView.h */,
-				053EEDE51B1A4A640042C92B /* DGActivityIndicatorView.m */,
-			);
-			path = DGActivityIndicatorView;
-			sourceTree = SOURCE_ROOT;
-		};
-		053EEDD61B1A4A640042C92B /* Animations */ = {
-			isa = PBXGroup;
-			children = (
 				B9D7CC531D5B59A700A9A2CE /* DGActivityIndicatorAnimation.h */,
 				B9D7CC541D5B59A700A9A2CE /* DGActivityIndicatorAnimation.m */,
 				2370AB0A1B62CE9000D36684 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
@@ -302,9 +291,12 @@
 				23413BAA1B5CDA980014C2E8 /* DGActivityIndicatorBallZigZagAnimation.m */,
 				4B779312B3CDCCFAC9B06727 /* DGActivityIndicatorBallSpinFadeLoader.h */,
 				4B779BE1E0B67F4DE2C92A8E /* DGActivityIndicatorBallSpinFadeLoader.m */,
+				053EEDE31B1A4A640042C92B /* DGActivityIndicatorAnimationProtocol.h */,
+				053EEDE41B1A4A640042C92B /* DGActivityIndicatorView.h */,
+				053EEDE51B1A4A640042C92B /* DGActivityIndicatorView.m */,
 			);
-			path = Animations;
-			sourceTree = "<group>";
+			path = DGActivityIndicatorView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -367,6 +359,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -552,7 +545,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DGActivityIndicatorExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danilgontovnik.DGActivityIndicatorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,7 +559,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DGActivityIndicatorExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danilgontovnik.DGActivityIndicatorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
